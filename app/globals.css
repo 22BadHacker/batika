@@ -1,26 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/b76e589398b734c21453bb17d93dd7ff?family=PP+Neue+Montreal+Medium);
+@import url(https://db.onlinewebfonts.com/c/ca60ecf8682ee50619811d94af8db7d4?family=PP+Neue+Montreal);
+@import url(https://db.onlinewebfonts.com/c/7cf7d803b6d524f9f4b322368e486510?family=NeueHaasGroteskDisp+W01+Bd);
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('../public/Fonts/NeueMontreal-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'ppneuemontreal';
+  src: url('../public/Fonts/ppneuemontreal-medium.otf') format('opentype');
+}
+
+@layer base {
+
+  :root {
+    --background: #f4f4f4;
+    --foreground: #383850;
+    /* --foreground: #171717; */
+    --gray:#c4c4c4;
+    --dark-color: #383850;
+    --darkk-color: #26333e;
+    --orange-color: #f16b3b;
+  }
+  
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-gray: var(--gray);
+  --color-darkk: var(--dark-color);
+  --color-darkkk: var(--darkk-color);
+  --color-orange: var(--orange-color);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-inter: 'Inter', Arial, Helvetica, sans-serif;
+  --font-ppneuemontreal: 'ppneuemontreal', 'PP Neue Montreal Medium', Arial, Helvetica, sans-serif;
+  --font-ppneueMedium: 'PP Neue Montreal Medium', Arial, Helvetica, sans-serif;
+  --font-ppneue: 'PP Neue Montreal', Arial, Helvetica, sans-serif;
+  --font-montreal: 'NeueMontreal', Arial, Helvetica, sans-serif;
+  --font-Roboto:  'Roboto', Arial, Helvetica, sans-serif;
+  --font-NeueHaasGrotesk: 'NeueHaasGroteskDisp W01 Bd';
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+body {
+  /* background: #f4f4f4; */
+  color: var(--foreground);
+  font-family: var(--font-ppneuemontreal);
+  background: #fff;
+
+}
+
+html, body {
+  scroll-behavior: auto !important;
+  overscroll-behavior: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes textColorBlink {
+  0%, 50% { opacity: 0; }  /* blue-500 */
+  100% { color: 100%; }       /* red-500 */
+}
+
+::selection {
+  @apply bg-[#dddddd]/65 text-[#0d1c28]/90
+}
+
+.img {
+  user-select: none; /* Prevent image selection */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+}
+
+
+
+
+@layer utilities{
+  .container-size{
+    @apply w-full max-w-[1650px] mx-auto py-5 px-7
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
