@@ -4,6 +4,8 @@ import LenisWrapper from "@/component/LenisWrapper";
 import NavBar from "@/component/NavBar";
 import Batika from '@/public/Logo/Batika_logo.svg';
 import Image from 'next/image';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 
 
 export const metadata = {
@@ -30,8 +32,8 @@ export default function RootLayout({ children }) {
           {/* <section>
               <Footer/>
           </section> */}
-{/* 
-          <section style={{clipPath: 'polygon(0% 0, 100% 0%, 100% 100%, 0% 100%)'}} className="w-full  flex h-[550px]  relative ">
+
+          {/* <section style={{clipPath: 'polygon(0% 0, 100% 0%, 100% 100%, 0% 100%)'}} className="w-full  flex h-[550px]  relative ">
               <div className="fixed container-size flex bottom-0 w-full h-auto">
                   <Image 
                         className="w-full saturate-[1]" 
@@ -42,6 +44,7 @@ export default function RootLayout({ children }) {
                     />
               </div>
             </section> */}
+            <SpeedInsights />
         </LenisWrapper>
       </body>
     </html>

@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BATIKA Construction
 
-## Getting Started
+Building foundations. Shaping the future.
 
-First, run the development server:
+BATIKA is a construction company dedicated to delivering reliable, high-quality building solutions with precision and integrity.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏗 About BATIKA
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+BATIKA specializes in construction and infrastructure projects, combining technical expertise with practical experience to deliver strong, lasting results.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+We believe construction is more than assembling materials —  
+it’s about building trust, durability, and long-term value.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔨 Our Services
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Residential Construction
+- Commercial Buildings
+- Renovation & Remodeling
+- Structural Works
+- Project Management
+- Site Supervision
+- Concrete & Finishing Works
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+From foundation to final detail, we ensure quality at every stage.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Our Mission
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To deliver safe, efficient, and durable construction projects that meet the highest standards of quality and professionalism.
+
+---
+
+## 🧱 Our Values
+
+- Integrity
+- Precision
+- Reliability
+- Safety First
+- Long-Term Commitment
+
+We build with responsibility and execute with discipline.
+
+---
+
+## 🌍 Where We Operate
+
+Based in Casablanca.  
+Serving projects across Morocco.
+
+---
+
+## 📞 Contact
+
+Have a project in mind?  
+Let’s build it together.
+
+📧 contact@batika.ma  
+📍 Casablanca, Morocco  
+📱 +212 522 213 683  
+
+---
+
+## © BATIKA — Entreprise Générale de Bâtiment
+
+Strong foundations. Solid results.

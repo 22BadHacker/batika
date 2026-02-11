@@ -78,7 +78,7 @@ const ContactInfo = () => (
         <p className="text-[16px]">
           © {currentYear} &nbsp;
           <span className="font-semibold inline-flex">BATIKA</span> — 
-          Entreprise Générale de Construction
+          Entreprise Générale de Bâtiment
         </p>
 
         <div className="grid gap-2 xs:gap-6 sm:grid-cols-2 w-full">
