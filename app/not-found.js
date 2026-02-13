@@ -15,7 +15,7 @@ export const metadata = {
 export default function Custom404() {
   return (
     <div className="min-h-svh  w-full px-10 gap-5 sm:px-6 py-[40px] relative  flex flex-col items-center justify-center">
-        <NavBar />
+        {/* <NavBar /> */}
 
         
         <h1 className="md:text-[400px] text-center text-[calc(60vw-50px)] leading-[1.2]  font-semibold font-montreal tracking-[-20px] sm:flex hidden text-[#24313c]">404</h1>

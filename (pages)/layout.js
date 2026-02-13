@@ -5,18 +5,18 @@ import React from 'react'
 const layout = ({children}) => {
   return (
     <div className='min-h-screen grid grid-rows-[1fr_auto] w-full h-auto'>
-      <header className=" w-full z-10  ">
+      {/* <header className=" w-full z-10  ">
             <NavBar />
-          </header>
+          </header> */}
 
           <div className="min-h-screen">
             {children}
           </div>
 
           
-          <section>
+          {/* <section>
               <Footer/>
-          </section>
+          </section> */}
     </div>
   )
 }
