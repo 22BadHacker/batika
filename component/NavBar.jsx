@@ -211,7 +211,7 @@ const NavBar = () => {
                             
                             {/* Bottom Line */}
                             <span 
-                                className={`absolute h-[1px] group-hover:bg-gray w-full bg-[#0d1c28]/85 transition-all duration-200 ease-in-out ${
+                                className={`absolute h-[1.2px] group-hover:bg-gray w-full bg-[#0d1c28]/85 transition-all duration-200 ease-in-out ${
                                     isMenuOpen 
                                         ? 'top-1/2 -translate-y-1/2 -rotate-45' 
                                         : 'bottom-3 rotate-0'
