@@ -23,9 +23,9 @@ export default function RootLayout({ children }) {
       >
         <LenisWrapper>
           
-          {/* <header className=" w-full z-10  ">
+          <header className=" w-full z-10  ">
             <NavBar />
-          </header> */}
+          </header>
 
           {children}
 

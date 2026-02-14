@@ -39,7 +39,7 @@ const NavBar = () => {
     const navItems = [
         { label: 'À propos,', href: '#' },
         { label: 'Expertises,', href: '#' },
-        { label: 'Réalisations', href: '/realisations' }
+        { label: 'Réalisations', href: '#' }
     ];
 
     const mobileItems = [
